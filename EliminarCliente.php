@@ -1,14 +1,7 @@
 <?php
 require "Conexion.php";
 
-
 $idcliente = $_REQUEST['idcliente'];
-
-//REALIZANDO SEGUNDA CONEXION
-
-
-
-// Create connection
 $conexion = new mysqli($servidor, $usuario, $password, $basededatos);
 // Check connection
 if ($conexion->connect_error) {

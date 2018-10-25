@@ -1,9 +1,4 @@
 <?php
-//REALIZANDO PRIMERA CONEXION
-
-//parametros
-
-
 $usuario 	= "root";
 $password 	= "Gi@mpieer24-pe";
 $servidor 	= "localhost";
