@@ -5,10 +5,7 @@ $conexion 	= mysqli_connect($servidor, $usuario, $password,$basededatos) or die 
  if(mysqli_connect_error($conexion)){
 	 echo "Error";
  }
-$query=mysqli_query($conexion,"
-SELECT * FROM Cliente
-
-");
+$query=mysqli_query($conexion,"SELECT * FROM Cliente");
 
 if($query) {
    while($row=mysqli_fetch_array($query)){
